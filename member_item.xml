@@ -24,7 +24,7 @@
     android:layout_marginTop="4.0dp"
     card_view:cardCornerRadius="2dp">
 
-    <LinearLayout android:id="@+id/layout_item"
+    <LinearLayout android:id="@+id/layout_members"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -34,7 +34,7 @@
                                                android:layout_height="2.0dp"
                                                fresco:placeholderImage="@color/stay_color" />
 
-    <LinearLayout android:id="@+id/layout_item_desc"
+    <LinearLayout android:id="@+id/layout_members_desc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -47,7 +47,7 @@
             android:layout_weight="1.8">
             <TextView android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
-                      android:text="Club Name "
+                      android:text="Girls Only "
                       android:textSize="10dp"
                       android:textStyle="bold"/>
             <TextView android:layout_width="wrap_content"
@@ -60,12 +60,7 @@
                       android:textSize="12dp"
                       android:textColor="#4CAF50"/>
         </LinearLayout>
-        <ImageView android:id="@+id/ic_wishlist"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:layout_weight="0.3"
-                   android:layout_gravity="center_vertical"
-                   android:src="@drawable/ic_favorite_border_black_18dp"/>
+
     </LinearLayout>
 </LinearLayout>
 
